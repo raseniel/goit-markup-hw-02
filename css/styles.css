@@ -205,7 +205,6 @@
 
 .section5-img-name {
   color: var(--navyblue);
-  //styleName: Body;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -215,7 +214,6 @@
 }
 
 .section5-dept-text {
-  //styleName: Body;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
