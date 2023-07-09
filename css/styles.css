@@ -15,50 +15,29 @@
   .link-webstudio-logo {
     text-decoration: none;
     font-family: "Raleway", san-serif;
-    font-size: 30px;
-    line-height: 1.5;
   }
 
   .weblogo {
     color: var(--iris, #4d5ae5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+    font-family: "Raleway";
+    line-height: 1.5;
   }
   .studiologo {
     color: var(--navyblue);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+    font-family: "Raleway";
   }
 
   .studiologo2 {
     color: var(--cloud, #f4f4fd);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+    font-family: "Raleway";
   }
 }
 
 .navbar .pages {
   color: var(--navcolor);
   text-decoration: none;
+  font-family: "roboto";
   font-weight: 500;
-  font-size: 15px;
-  line-height: 1.15;
-  letter-spacing: 0.05em;
 }
 .lists {
   list-style-type: none;
@@ -74,11 +53,9 @@
 
 .contact-info .info {
   color: var(--navcolor);
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.15;
-  letter-spacing: 0.05em;
   text-decoration: none;
+  font-family: "roboto";
+  font-weight: 400;
 }
 
 .bg-section1 {
@@ -87,60 +64,60 @@
 
 .h1-title {
   color: var(--whitecolor);
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.05em;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
 .btn {
   cursor: pointer;
   border-color: transparent;
-  letter-spacing: 0.05em;
   font-family: inherit;
 }
 
 .btn.primary {
-  background-color: var(--oceancolor);
+  background-color: var(--irishcolor);
   color: var(--whitecolor);
-  font-weight: 800;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
 .btn.primary:hover,
 .btn.primary:focus {
-  background-color: var(--irishcolor);
+  background-color: var(--oceancolor);
 }
 
-.desclist.titlelists {
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 1.5;
+.titlelist {
+  color: var(--navyblue);
+  font-family: "roboto";
+  font-weight: 500;
+}
+
+.desclist {
   color: var(--slatecolor);
+  font-family: "roboto";
+  font-weight: 400;
 }
 
 .sectiontitle {
-  text-align: center;
   color: var(--navyblue);
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 1.5;
+  font-family: "roboto";
+  font-weight: 700;
+}
+
+.section4 {
+  background-color: var(--cloud);
 }
 
 .teamname {
   color: var(--navyblue);
+  font-family: "roboto";
   font-weight: 900;
 }
 
 .position {
   color: var(--slatecolor);
-  font-size: 16px;
-  font-style: normal;
+  font-family: "roboto";
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
 .footerbg {
@@ -149,26 +126,28 @@
 
 .lastword {
   color: white;
-  width: 265px;
-  height: 70px;
-  top: 3300px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+
+.hero-button {
+  text-decoration: none;
 }
 
 .all-button {
-  background-color: var(--oceanblue);
-  color: var(--whitecolor);
-  width: Hug (69px);
-  height: Hug (48px);
-  padding: 12px 24px 12px 24px;
+  background-color: var(--cornflower);
+  color: var(--irishcolor);
+  font-family: "roboto";
+  font-weight: 500;
   border-radius: 4px;
+  border: 1px;
 }
 
 .website-button {
   background-color: var(--cornflower);
   color: var(--irishcolor);
-  width: Hug (116px);
-  height: Hug (48px);
-  padding: 12px 24px 12px 24px;
+  font-family: "roboto";
+  font-weight: 500;
   border-radius: 4px;
   border: 1px;
 }
@@ -176,9 +155,8 @@
 .app-button {
   background-color: var(--cornflower);
   color: var(--irishcolor);
-  width: Hug (78px);
-  height: Hug (48px);
-  padding: 12px 24px 12px 24px;
+  font-family: "roboto";
+  font-weight: 500;
   border-radius: 4px;
   border: 1px;
 }
@@ -186,9 +164,8 @@
 .design-button {
   background-color: var(--cornflower);
   color: var(--irishcolor);
-  width: Hug (101px);
-  height: Hug (48px);
-  padding: 12px 24px 12px 24px;
+  font-family: "roboto";
+  font-weight: 500;
   border-radius: 4px;
   border: 1px;
 }
@@ -196,28 +173,20 @@
 .marketing-button {
   background-color: var(--cornflower);
   color: var(--irishcolor);
-  width: Hug (126px);
-  height: Hug (48px);
-  padding: 12px 24px 12px 24px;
+  font-family: "roboto";
+  font-weight: 500;
   border-radius: 4px;
   border: 1px;
 }
 
-.section5-img-name {
+.pics-img-name {
   color: var(--navyblue);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
-.section5-dept-text {
-  font-family: Roboto;
-  font-size: 16px;
+.pics-dept-text {
+  color: var(--slatecolor);
+  font-family: "roboto";
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
 }
