@@ -20,16 +20,27 @@
   .weblogo {
     color: var(--iris, #4d5ae5);
     font-family: "Raleway";
-    line-height: 1.5;
+    line-height: 21px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.54px;
   }
   .studiologo {
     color: var(--navyblue);
     font-family: "Raleway";
+    line-height: 21px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.54px;
   }
 
   .studiologo2 {
     color: var(--cloud, #f4f4fd);
     font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3px;
   }
 }
 
@@ -37,8 +48,13 @@
   color: var(--navcolor);
   text-decoration: none;
   font-family: "roboto";
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
+
 .lists {
   list-style-type: none;
 }
@@ -48,14 +64,17 @@
 .navbar .pages.currentoption,
 .contact-info .info:hover,
 .contact-info .info:focus {
-  color: var(--oceancolor);
+  color: var(--irishcolor);
 }
 
 .contact-info .info {
-  color: var(--navcolor);
+  color: var(--slatecolor);
   text-decoration: none;
   font-family: "roboto";
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
 
 .bg-section1 {
@@ -65,7 +84,10 @@
 .h1-title {
   color: var(--whitecolor);
   font-family: "roboto";
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 1.12px;
 }
 
 .btn {
@@ -79,29 +101,43 @@
   color: var(--whitecolor);
   font-family: "roboto";
   font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
 }
 
 .btn.primary:hover,
 .btn.primary:focus {
-  background-color: var(--oceancolor);
+  background-color: var(--oceanblue);
 }
 
 .titlelist {
   color: var(--navyblue);
   font-family: "roboto";
   font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 .desclist {
   color: var(--slatecolor);
   font-family: "roboto";
   font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 .sectiontitle {
   color: var(--navyblue);
   font-family: "roboto";
   font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
 }
 
 .section4 {
@@ -111,13 +147,19 @@
 .teamname {
   color: var(--navyblue);
   font-family: "roboto";
-  font-weight: 900;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 .position {
   color: var(--slatecolor);
   font-family: "roboto";
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 .footerbg {
@@ -125,68 +167,51 @@
 }
 
 .lastword {
-  color: white;
+  color: var(--cloud);
   font-family: "roboto";
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 .hero-button {
   text-decoration: none;
 }
 
-.all-button {
-  background-color: var(--cornflower);
-  color: var(--irishcolor);
-  font-family: "roboto";
-  font-weight: 500;
-  border-radius: 4px;
-  border: 1px;
+.btn.filter:hover,
+.btn.filter:focus,
+.btn.filter.primary {
+  background-color: var(--oceancolor);
+  color: var(--whitecolor);
 }
 
-.website-button {
+.btn {
   background-color: var(--cornflower);
   color: var(--irishcolor);
   font-family: "roboto";
   font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
   border-radius: 4px;
   border: 1px;
-}
-
-.app-button {
-  background-color: var(--cornflower);
-  color: var(--irishcolor);
-  font-family: "roboto";
-  font-weight: 500;
-  border-radius: 4px;
-  border: 1px;
-}
-
-.design-button {
-  background-color: var(--cornflower);
-  color: var(--irishcolor);
-  font-family: "roboto";
-  font-weight: 500;
-  border-radius: 4px;
-  border: 1px;
-}
-
-.marketing-button {
-  background-color: var(--cornflower);
-  color: var(--irishcolor);
-  font-family: "roboto";
-  font-weight: 500;
-  border-radius: 4px;
-  border: 1px;
+  padding: 12px, 24px, 12px, 24px;
 }
 
 .pics-img-name {
   color: var(--navyblue);
   font-family: "roboto";
   font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 .pics-dept-text {
   color: var(--slatecolor);
   font-family: "roboto";
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
