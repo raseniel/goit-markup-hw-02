@@ -78,11 +78,6 @@ body {
 .contact-info .info {
   color: var(--slatecolor);
   text-decoration: none;
-  font-family: "roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.3px;
 }
 
 .bg-section1 {
@@ -113,6 +108,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.64px;
+  border-radius: 4px;
 }
 
 .btn.primary:hover,
@@ -157,11 +153,6 @@ body {
 
 .position {
   color: var(--slatecolor);
-  font-family: "roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
 }
 
 .footerbg {
@@ -170,11 +161,6 @@ body {
 
 .lastword {
   color: var(--cloud);
-  font-family: "roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
 }
 
 .hero-button {
@@ -188,6 +174,7 @@ body {
   color: var(--whitecolor);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border-color: #404bbf;
 }
 
 .btn.filter {
@@ -214,9 +201,4 @@ body {
 
 .pics-dept-text {
   color: var(--slatecolor);
-  font-family: "roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
 }
